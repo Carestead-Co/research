@@ -1,0 +1,16 @@
+# Licensing for every path, in REUSE form (https://reuse.software).
+# The default is CC BY 4.0 (Tier A). Only bible/share-alike/ is CC BY-SA 4.0
+# (Tier B). See README.md and bible/README.md.
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Carestead LLC"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "bible/share-alike/**"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Carestead LLC"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
