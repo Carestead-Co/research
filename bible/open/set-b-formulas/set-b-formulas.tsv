@@ -1,0 +1,38 @@
+# The CLOSED list of citation formulas that select set B of the Gospel
+# connections evaluation (docs/architecture/herald-scripture-connections.md,
+# section 7, "Gold set B"). A Gospel verse is a candidate when its BSB text
+# contains one of these phrases (case-insensitive, curly apostrophes read as
+# straight). Annotators then map each candidate to the Old Testament verse it
+# quotes, or leave it blank when it quotes nothing.
+#
+# Amend this file, never a single pair: a formula is added here, in review,
+# and every candidate it selects is then annotated. The family column is the
+# spec's formula family.
+#
+# Read by `flock-scripture-import formulas --emit` (compiled in).
+id	family	phrase
+written-1	it is written	it is written
+written-2	it is written	is it not written
+written-3	it is written	it has been written
+fulfil-1	that it might be fulfilled	to fulfill what
+fulfil-2	that it might be fulfilled	this fulfilled what
+fulfil-3	that it might be fulfilled	was fulfilled
+fulfil-4	that it might be fulfilled	is fulfilled
+fulfil-5	that it might be fulfilled	be fulfilled
+fulfil-6	that it might be fulfilled	to fulfill the scripture
+fulfil-7	that it might be fulfilled	to fulfill the word
+prophet-1	[prophet] said/spoke	through the prophet
+prophet-2	[prophet] said/spoke	by the prophet
+prophet-3	[prophet] said/spoke	isaiah prophesied
+prophet-4	[prophet] said/spoke	david himself
+read-1	have you not read	have you not read
+read-2	have you not read	haven't you read
+read-3	have you not read	have you never read
+moses-1	Moses said/commanded	moses said
+moses-2	Moses said/commanded	moses commanded
+moses-3	Moses said/commanded	moses wrote
+scripture-1	the Scripture says	scripture says
+scripture-2	the Scripture says	scripture has said
+said-1	it was said	it was said
+means-1	go and learn what this means	learn what this means
+means-2	if you had known what this means	known what this means

@@ -1,0 +1,46 @@
+# The divided monarchy's reigns, for research track 3a
+# (docs/data/scripture-research-class-a.md). One row per reign, in each
+# kingdom's order. reign_years and reign_months are the stated length; a
+# reign of days or months has reign_years 0. Transcribed from the BSB (public
+# domain) and checked against the cited verse; Chronicles parallels are in
+# the note. Open textual issues: docs/data/scripture-research-monarchy-data.md.
+kingdom	seq	king	reign_years	reign_months	ref	note
+judah	1	rehoboam	17	0	1Kgs.14.21	agrees: 2Chr.12.13 (seventeen years)
+judah	2	abijam	3	0	1Kgs.15.2	Abijah in 2Chr; agrees: 2Chr.13.2 (three years)
+judah	3	asa	41	0	1Kgs.15.10	2Chr has no reign-length formula; 2Chr.16.13 says he died in the forty-first year of his reign (consistent)
+judah	4	jehoshaphat	25	0	1Kgs.22.42	agrees: 2Chr.20.31 (twenty-five years)
+judah	5	jehoram_j	8	0	2Kgs.8.17	agrees: 2Chr.21.5 and 2Chr.21.20 (eight years)
+judah	6	ahaziah_j	1	0	2Kgs.8.26	agrees: 2Chr.22.2 (one year)
+judah	7	athaliah	6	0	2Kgs.11.3	length given as the six years Joash was hidden 'while Athaliah ruled the land', not a regnal formula; agrees: 2Chr.22.12 (six years)
+judah	8	joash_j	40	0	2Kgs.12.1	Hebrew Jehoash (BSB footnote); agrees: 2Chr.24.1 (forty years)
+judah	9	amaziah	29	0	2Kgs.14.2	agrees: 2Chr.25.1 (twenty-nine years)
+judah	10	azariah	52	0	2Kgs.15.2	also called Uzziah (2Kgs.15.13, 2Kgs.15.30, 2Chr.26); agrees: 2Chr.26.3 (fifty-two years)
+judah	11	jotham	16	0	2Kgs.15.33	agrees: 2Chr.27.1 and 2Chr.27.8 (sixteen years)
+judah	12	ahaz	16	0	2Kgs.16.2	agrees: 2Chr.28.1 (sixteen years)
+judah	13	hezekiah	29	0	2Kgs.18.2	agrees: 2Chr.29.1 (twenty-nine years)
+judah	14	manasseh	55	0	2Kgs.21.1	agrees: 2Chr.33.1 (fifty-five years)
+judah	15	amon	2	0	2Kgs.21.19	agrees: 2Chr.33.21 (two years)
+judah	16	josiah	31	0	2Kgs.22.1	agrees: 2Chr.34.1 (thirty-one years)
+judah	17	jehoahaz_j	0	3	2Kgs.23.31	agrees: 2Chr.36.2 (three months)
+judah	18	jehoiakim	11	0	2Kgs.23.36	agrees: 2Chr.36.5 (eleven years)
+judah	19	jehoiachin	0	3	2Kgs.24.8	DIFFERS: 2Chr.36.9 says three months and ten days
+judah	20	zedekiah	11	0	2Kgs.24.18	agrees: 2Chr.36.11 (eleven years)
+israel	1	jeroboam1	22	0	1Kgs.14.20	
+israel	2	nadab	2	0	1Kgs.15.25	
+israel	3	baasha	24	0	1Kgs.15.33	
+israel	4	elah	2	0	1Kgs.16.8	
+israel	5	zimri	0	0	1Kgs.16.15	reigned seven days (not expressible in years/months; recorded as 0 and 0)
+israel	6	omri	12	0	1Kgs.16.23	six of the twelve years in Tirzah; Tibni son of Ginath contested the throne (1Kgs.16.21-22), no reign length given for Tibni
+israel	7	ahab	22	0	1Kgs.16.29	
+israel	8	ahaziah_i	2	0	1Kgs.22.51	
+israel	9	joram_i	12	0	2Kgs.3.1	called Jehoram in 2Kgs.1.17, Jehoram son of Ahab in 2Kgs.3.1, Joram son of Ahab in 2Kgs.8.16, 2Kgs.8.25 and 2Kgs.9.29
+israel	10	jehu	28	0	2Kgs.10.36	
+israel	11	jehoahaz_i	17	0	2Kgs.13.1	
+israel	12	jehoash_i	16	0	2Kgs.13.10	Hebrew Joash in 2Kgs.13 and 2Kgs.14 (BSB footnotes at 2Kgs.13.9 and 2Kgs.14.1)
+israel	13	jeroboam2	41	0	2Kgs.14.23	
+israel	14	zechariah	0	6	2Kgs.15.8	
+israel	15	shallum	0	1	2Kgs.15.13	one full month
+israel	16	menahem	10	0	2Kgs.15.17	
+israel	17	pekahiah	2	0	2Kgs.15.23	
+israel	18	pekah	20	0	2Kgs.15.27	twenty years is hard to fit the synchronisms; see the data notes
+israel	19	hoshea	9	0	2Kgs.17.1	
