@@ -1,0 +1,64 @@
+# Candidate person identities across the sources in genealogies.tsv: each row
+# names one person and every source/pos row that refers to them. A row whose
+# note says HYPOTHESIS or "Single source" is an identity the texts do not
+# state; research track 4 treats those as switches, never as facts.
+person	names	refs	note
+adam	luke/77:Adam; gen5/1:Adam	Luke 3:38; Gen 5:1	
+seth	luke/76:Seth; gen5/2:Seth	Luke 3:38; Gen 5:3	
+enosh	luke/75:Enosh; gen5/3:Enosh	Luke 3:38; Gen 5:6	BSB footnote at Luke 3:38 gives the Greek as Enōs.
+kenan	luke/74:Cainan; gen5/4:Kenan	Luke 3:37; Gen 5:9	Kenan (Gen 5:9) = Cainan (Luke 3:37). Not the second Cainan of Luke 3:36.
+mahalalel	luke/73:Mahalalel; gen5/5:Mahalalel	Luke 3:37; Gen 5:12	
+jared	luke/72:Jared; gen5/6:Jared	Luke 3:37; Gen 5:15	
+enoch	luke/71:Enoch; gen5/7:Enoch	Luke 3:37; Gen 5:18	Son of Jared; not Cain's son Enoch (Gen 4:17).
+methuselah	luke/70:Methuselah; gen5/8:Methuselah	Luke 3:37; Gen 5:21	
+lamech	luke/69:Lamech; gen5/9:Lamech	Luke 3:36; Gen 5:25	Son of Methuselah; not Cain's descendant Lamech (Gen 4:18).
+noah	luke/68:Noah; gen5/10:Noah	Luke 3:36; Gen 5:29	
+shem	luke/67:Shem; gen5/11:Shem; gen11/1:Shem	Luke 3:36; Gen 5:32; Gen 11:10	
+arphaxad	luke/66:Arphaxad; gen11/2:Arphaxad	Luke 3:36; Gen 11:10	
+shelah_son_of_arphaxad	luke/64:Shelah; gen11/3:Shelah	Luke 3:35; Gen 11:12	Same person, different father: Arphaxad in Hebrew Gen 11:12, Cainan in Luke 3:35-36 (and LXX Gen 11). Not Judah's son Shelah (1 Chr 2:3).
+eber	luke/63:Eber; gen11/4:Eber	Luke 3:35; Gen 11:14	
+peleg	luke/62:Peleg; gen11/5:Peleg	Luke 3:35; Gen 11:16	
+reu	luke/61:Reu; gen11/6:Reu	Luke 3:35; Gen 11:18	
+serug	luke/60:Serug; gen11/7:Serug	Luke 3:35; Gen 11:20	
+nahor_grandfather_of_abraham	luke/59:Nahor; gen11/8:Nahor	Luke 3:34; Gen 11:22	Son of Serug, father of Terah. Not Abram's brother Nahor (Gen 11:26).
+terah	luke/58:Terah; gen11/9:Terah	Luke 3:34; Gen 11:24	
+abraham	matt/1:Abraham; luke/57:Abraham; gen11/10:Abram	Matt 1:2; Luke 3:34; Gen 11:26	Spelled Abram in Gen 11:26 (renamed Abraham in Gen 17:5).
+isaac	matt/2:Isaac; luke/56:Isaac	Matt 1:2; Luke 3:34	
+jacob_patriarch	matt/3:Jacob; luke/55:Jacob	Matt 1:2; Luke 3:34	The patriarch; not Joseph's father Jacob in Matt 1:15-16.
+judah_son_of_jacob	matt/4:Judah; luke/54:Judah; chr_judah/1:Judah	Matt 1:2; Luke 3:33; 1 Chr 2:1	The patriarch; not the Judah of Luke 3:30.
+perez	matt/5:Perez; luke/53:Perez; ruth/1:Perez; chr_judah/2:Perez	Matt 1:3; Luke 3:33; Ruth 4:18; 1 Chr 2:4	
+hezron	matt/6:Hezron; luke/52:Hezron; ruth/2:Hezron; chr_judah/3:Hezron	Matt 1:3; Luke 3:33; Ruth 4:18; 1 Chr 2:5	
+ram	matt/7:Ram; ruth/3:Ram; chr_judah/4:Ram	Matt 1:3; Ruth 4:19; 1 Chr 2:9	Luke 3:33 has no Ram in the BSB: it reads Admin and Arni between Amminadab and Hezron. Identifying Ram with Luke's Arni (or Admin) is a textual hypothesis; see the data notes. BSB footnote at Matt 1:3: Greek Aram.
+amminadab	matt/8:Amminadab; luke/49:Amminadab; ruth/4:Amminadab; chr_judah/5:Amminadab	Matt 1:4; Luke 3:33; Ruth 4:19; 1 Chr 2:10	
+nahshon	matt/9:Nahshon; luke/48:Nahshon; ruth/5:Nahshon; chr_judah/6:Nahshon	Matt 1:4; Luke 3:32; Ruth 4:20; 1 Chr 2:10	
+salmon	matt/10:Salmon; luke/47:Sala; ruth/6:Salmon; chr_judah/7:Salmon	Matt 1:4; Luke 3:32; Ruth 4:20; 1 Chr 2:11	Luke 3:32 prints Sala (BSB footnote: BYZ and TR Salmon). Hebrew has Salma at Ruth 4:20 and 1 Chr 2:11 (BSB footnotes).
+boaz	matt/11:Boaz; luke/46:Boaz; ruth/7:Boaz; chr_judah/8:Boaz	Matt 1:5; Luke 3:32; Ruth 4:21; 1 Chr 2:11	
+obed	matt/12:Obed; luke/45:Obed; ruth/8:Obed; chr_judah/9:Obed	Matt 1:5; Luke 3:32; Ruth 4:21; 1 Chr 2:12	
+jesse	matt/13:Jesse; luke/44:Jesse; ruth/9:Jesse; chr_judah/10:Jesse	Matt 1:5; Luke 3:32; Ruth 4:22; 1 Chr 2:12	
+david	matt/14:David; luke/43:David; ruth/10:David; chr_judah/11:David	Matt 1:6; Luke 3:31; Ruth 4:22; 1 Chr 2:15	
+solomon	matt/15:Solomon; chr_kings/1:Solomon	Matt 1:6; 1 Chr 3:10	Luke runs through David's son Nathan instead (Luke 3:31).
+rehoboam	matt/16:Rehoboam; chr_kings/2:Rehoboam; kings_judah/1:Rehoboam	Matt 1:7; 1 Chr 3:10; 1 Kgs 11:43	
+abijah	matt/17:Abijah; chr_kings/3:Abijah; kings_judah/2:Abijam	Matt 1:7; 1 Chr 3:10; 1 Kgs 14:31	Abijam in 1 Kings (BSB footnote: a variant of Abijah).
+asa	matt/18:Asa; chr_kings/4:Asa; kings_judah/3:Asa	Matt 1:7; 1 Chr 3:10; 1 Kgs 15:8	BSB footnote at Matt 1:7: Greek Asaph.
+jehoshaphat	matt/19:Jehoshaphat; chr_kings/5:Jehoshaphat; kings_judah/4:Jehoshaphat	Matt 1:8; 1 Chr 3:10; 1 Kgs 15:24	
+jehoram_of_judah	matt/20:Joram; chr_kings/6:Joram; kings_judah/5:Jehoram	Matt 1:8; 1 Chr 3:11; 1 Kgs 22:50	Joram is a variant spelling of Jehoram (BSB footnote at 1 Chr 3:11).
+ahaziah_of_judah	chr_kings/7:Ahaziah; kings_judah/6:Ahaziah	1 Chr 3:11; 2 Kgs 8:24	Omitted by Matthew.
+joash_of_judah	chr_kings/8:Joash; kings_judah/8:Joash	1 Chr 3:11; 2 Kgs 11:21	Omitted by Matthew. Hebrew Jehoash in 2 Kgs 11:21 (BSB footnote).
+amaziah	chr_kings/9:Amaziah; kings_judah/9:Amaziah	1 Chr 3:12; 2 Kgs 12:21	Omitted by Matthew.
+uzziah	matt/21:Uzziah; chr_kings/10:Azariah; kings_judah/10:Azariah	Matt 1:8; 1 Chr 3:12; 2 Kgs 14:21	Azariah = Uzziah (BSB footnotes at 1 Chr 3:12 and 2 Kgs 14:21).
+jotham	matt/22:Jotham; chr_kings/11:Jotham; kings_judah/11:Jotham	Matt 1:9; 1 Chr 3:12; 2 Kgs 15:7	
+ahaz	matt/23:Ahaz; chr_kings/12:Ahaz; kings_judah/12:Ahaz	Matt 1:9; 1 Chr 3:13; 2 Kgs 15:38	
+hezekiah	matt/24:Hezekiah; chr_kings/13:Hezekiah; kings_judah/13:Hezekiah	Matt 1:9; 1 Chr 3:13; 2 Kgs 16:20	
+manasseh	matt/25:Manasseh; chr_kings/14:Manasseh; kings_judah/14:Manasseh	Matt 1:10; 1 Chr 3:13; 2 Kgs 20:21	
+amon	matt/26:Amon; chr_kings/15:Amon; kings_judah/15:Amon	Matt 1:10; 1 Chr 3:14; 2 Kgs 21:18	BSB footnote at Matt 1:10: Greek Amōs. Not Luke's Amos (Luke 3:25).
+josiah	matt/27:Josiah; chr_kings/16:Josiah; kings_judah/16:Josiah	Matt 1:10; 1 Chr 3:14; 2 Kgs 21:24	
+jehoiakim	chr_kings/17:Jehoiakim; kings_judah/18:Jehoiakim	1 Chr 3:15; 2 Kgs 23:34	Birth name Eliakim (2 Kgs 23:34). Omitted by Matthew, whose Josiah is the father of Jeconiah (Matt 1:11).
+jeconiah	matt/28:Jeconiah; chr_kings/18:Jeconiah; kings_judah/19:Jehoiachin	Matt 1:11; 1 Chr 3:16; 2 Kgs 24:6	Jeconiah is a variant of Jehoiachin (BSB footnote at 1 Chr 3:16).
+shealtiel_matt	matt/29:Shealtiel; chr_kings/19:Shealtiel	Matt 1:12; 1 Chr 3:17	Son of Jeconiah (Matt 1:12; 1 Chr 3:17). Also named as Zerubbabel's father in Ezra 3:2, Ezra 3:8 and Hag 1:1 (the ezra_hag rows; Shealtiel is in their note, not their name column). Identity with Luke's Shealtiel son of Neri (shealtiel_luke) is a HYPOTHESIS, disputed among scholars.
+shealtiel_luke	luke/22:Shealtiel	Luke 3:27	Single source, listed for the reconciliation question. Son of Neri (Luke 3:27). Identity with shealtiel_matt is a HYPOTHESIS, disputed among scholars.
+zerubbabel_matt	matt/30:Zerubbabel; chr_kings/21:Zerubbabel; ezra_hag/1:Zerubbabel; ezra_hag/2:Zerubbabel; ezra_hag/3:Zerubbabel	Matt 1:12; 1 Chr 3:19; Ezra 3:2; Ezra 3:8; Hag 1:1	The post-exilic governor of the Jeconiah line: son of Shealtiel in Matt 1:12, Ezra 3:2, Ezra 3:8, Hag 1:1; son of Pedaiah in 1 Chr 3:19. Including the 1 Chronicles row is the conventional identification (same name, same royal line, same generation), not something the texts state. Identity with Luke's Zerubbabel (zerubbabel_luke) is a HYPOTHESIS, disputed among scholars.
+zerubbabel_luke	luke/21:Zerubbabel	Luke 3:27	Single source, listed for the reconciliation question. Son of Shealtiel son of Neri, father of Rhesa (Luke 3:27). Identity with zerubbabel_matt is a HYPOTHESIS, disputed among scholars.
+jacob_father_of_joseph_matt	matt/39:Jacob	Matt 1:15	Single source, listed for the reconciliation question. Joseph's father in Matt 1:16. Not the same name as Luke's Heli; any identification with or relation to Heli (e.g. levirate or Mary's-line theories) is a HYPOTHESIS.
+heli_luke	luke/3:Heli	Luke 3:23	Single source, listed for the reconciliation question. Joseph's father in Luke 3:23. Any identification with or relation to Matthew's Jacob is a HYPOTHESIS.
+joseph_husband_of_mary	matt/40:Joseph; luke/2:Joseph	Matt 1:16; Luke 3:23	Matt 1:16 “Joseph, the husband of Mary”; Luke 3:23 “He was regarded as the son of Joseph”. Not the Josephs of Luke 3:24 and 3:30.
+jesus	matt/41:Jesus; luke/1:Jesus	Matt 1:16; Luke 3:23	

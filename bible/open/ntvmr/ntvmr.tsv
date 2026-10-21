@@ -1,0 +1,73 @@
+# NTVMR transcriptions read by research track 5 (docs/data/scripture-research-class-a.md).
+# Institut für Neutestamentliche Textforschung, New Testament Virtual Manuscript
+# Room, CC BY 4.0 (each file's TEI header states it). Fetched from the API url,
+# checked against sha256 and bytes, cached under <cache>/ntvmr/<sha256>.xml;
+# never committed. Rows are every Greek continuous-text manuscript the NTVMR
+# catalogue lists as containing Mark 16:8 or John 7:52, dated to AD 1000 or
+# earlier (plus P66 and P75 for John), whose published transcription of the
+# two chapters has text; chapters in order.
+doc	name	index	bytes	sha256	url
+20001	01	Mark.15	22375	e505ae9df5b4a77f64d869a99c09d1f7afc216770a899c85cb51b6dcc247a98f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Mark.15&format=teiraw
+20001	01	Mark.16	6327	f987736ecab0f49fb55e8dd68f681dbdcb344fa929f43427415b639e19f04257	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=Mark.16&format=teiraw
+20002	02	Mark.15	20338	3aae3d744724c9cdd0b94c2f23f1df6962f07277173dcae853337a6eb8d27e54	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=Mark.15&format=teiraw
+20002	02	Mark.16	10114	2a3989012557fabc099ed468b00583860f61d7a68de3d0758b5bda09dc4b98a0	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20002&indexContent=Mark.16&format=teiraw
+20003	03	Mark.15	23316	38da78a193ee75a8f8417003b2855eb107471e8a82bf930c74ec7a972ac03605	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=Mark.15&format=teiraw
+20003	03	Mark.16	6126	32866a4f99dbd86792ac15140f45c89051eefe7e2cc91e023bb3104e97b35456	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=Mark.16&format=teiraw
+20004	04	Mark.15	21181	cbd7baf876aa5ceb5a5e6ee00ff4f883307b56e214ded8827fda6c270d5005f6	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=Mark.15&format=teiraw
+20004	04	Mark.16	11976	6075556f7f97f8f634d68548ea7799be9b42067595f8e1cc108db4521f6b07d4	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20004&indexContent=Mark.16&format=teiraw
+20005	05	Mark.15	19509	3e8bb31bdae313a4affbfd48e24deb296a0c776534f66e388ce10efb54de56aa	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20005&indexContent=Mark.15&format=teiraw
+20005	05	Mark.16	10530	f0de971cc972299ac829bd0c7aa3a04db4ef3c665b4f9c04f0c335e17e166d01	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20005&indexContent=Mark.16&format=teiraw
+20011	011	Mark.15	22907	b315f612f88c67914d7e427e9920bbedac86382a76dd7355877b9ca7ff5aea27	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20011&indexContent=Mark.15&format=teiraw
+20011	011	Mark.16	11288	8110fd82e2e7f40b2c44e1bdc563dd328098bd24b12e4fae38a1e452531d9020	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20011&indexContent=Mark.16&format=teiraw
+20017	017	Mark.15	21904	ff24c3495c279a88462947a5a0c9a574400dcfdfbcc92fba878420de6bbddb8d	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20017&indexContent=Mark.15&format=teiraw
+20017	017	Mark.16	11278	6087d2c8bb54c5c0bccd64ece7d5fdaa929067d3949f4806bf3e8e0d22d1a51b	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20017&indexContent=Mark.16&format=teiraw
+20019	019	Mark.15	15579	463969b0f00b7e0332718cc282b17eb55f950566a7d99aaafb3abce15dafd194	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20019&indexContent=Mark.15&format=teiraw
+20019	019	Mark.16	12381	dd5acf61adb2ef4a07be22e8e20e38c6801d4e78d75defdcef6c61e0c89cacb0	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20019&indexContent=Mark.16&format=teiraw
+20032	032	Mark.15	10812	d04344e85f4e5232ad099195f43b5282847475083d68c62cf4538988529065a1	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20032&indexContent=Mark.15&format=teiraw
+20032	032	Mark.16	12123	36292c907f94202cec272119aec53e0cc846101eb0bb6a501dc0580a8fa397c1	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20032&indexContent=Mark.16&format=teiraw
+20037	037	Mark.15	19013	12b0b648475f67e8369f3ec579ef97a6fd213c09a192ec918b9f28413bdbfdfa	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20037&indexContent=Mark.15&format=teiraw
+20037	037	Mark.16	9742	c7b2e105b98d7655577c788a544fb2a1b010ad74ce0d507d8dcf0efa23e412b8	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20037&indexContent=Mark.16&format=teiraw
+20038	038	Mark.15	23288	d580a7bc9a63a8820a22f228babbc98891ad4be187d23b79a822ca1983bb1d92	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=Mark.15&format=teiraw
+20038	038	Mark.16	12024	20bd34ceae0e221edb44606101867a9024a7e189a36611b206944a1c7e934ebf	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=Mark.16&format=teiraw
+20041	041	Mark.15	22477	e5c6059bcc565249b5ade139566d770b047fc0f01709570ad2dd865b83d18605	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20041&indexContent=Mark.15&format=teiraw
+20041	041	Mark.16	10946	bcd6dfa748dc579e407d1dd42644f8a545a9b80dff1acfb91a754b197b3feaf5	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20041&indexContent=Mark.16&format=teiraw
+20042	042	Mark.15	22258	2c4fc3d29e1ac3d2d959b9849167876ca0738b1e546a072b5ddf18d03ba1c23e	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20042&indexContent=Mark.15&format=teiraw
+20042	042	Mark.16	7920	b2b5d9b8f68e56aae13f4a714ccdafdd4fa2a16e71c2e7b28a71a73e5dafba2a	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20042&indexContent=Mark.16&format=teiraw
+20044	044	Mark.15	18620	223fde20d0092072961c9f00cc85ad118cda7009c7b79f081528fc3ab3be7d88	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20044&indexContent=Mark.15&format=teiraw
+20044	044	Mark.16	10455	681b2606647ca2792e7f6cef20a558fbec8bfa792d668841aa2a3e030ec1f63f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20044&indexContent=Mark.16&format=teiraw
+20083	083	Mark.15	18584	9155878387e96b5ee2a434911323b50126a9a94d6aea806b6ab6413c126d1b49	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20083&indexContent=Mark.15&format=teiraw
+20083	083	Mark.16	11642	0e478e0a7c6553bd7787e428a80e59608fd0b5ca7056216ba3ea13f927e379f7	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20083&indexContent=Mark.16&format=teiraw
+20099	099	Mark.16	9909	748513ea74c49040856e2888747eb3f0105aa38457e2607be13d6962577bf513	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20099&indexContent=Mark.16&format=teiraw
+20211	0211	Mark.15	21107	55c466fcb8ea113843c35069b63f0112e1ab4defbed93669cc52638c1304f32f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20211&indexContent=Mark.15&format=teiraw
+20211	0211	Mark.16	11200	b43db716ec96d7e5b1e15e6ebacf63082b6228f505ddc167d14c3df4ffee050f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20211&indexContent=Mark.16&format=teiraw
+30033	33	Mark.15	19093	8cb5e2de088baab9a0f7f65e876dc3bccefc843fa833ddab36ac73961b97f075	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=Mark.15&format=teiraw
+30033	33	Mark.16	9689	f2e8e16ad9df7396f219077e4c31a3971e5b6bd32b6eb1898fe8a7781a7f0fbc	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=Mark.16&format=teiraw
+30565	565	Mark.15	19801	ea7258a2c6e1b0b351061b061b9913a3d3bfaabd5daad33c2502f16d48e39da6	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30565&indexContent=Mark.15&format=teiraw
+30565	565	Mark.16	10232	4de1c767f1862a198128db80951b2109bed36c383570311bcfa06e8db15b2987	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30565&indexContent=Mark.16&format=teiraw
+30892	892	Mark.15	19772	85bf03b95f41524e956e97ebc480375c5741d551f3955d82ac052de5e864f43f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30892&indexContent=Mark.15&format=teiraw
+30892	892	Mark.16	10234	1a16762d03760a13d529a965be21afb0acd51311893306de0dd63a9827bbd5d8	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30892&indexContent=Mark.16&format=teiraw
+31424	1424	Mark.15	19143	ab1c720257a85312849b7edee49e1914b5866d769963e9f96952d8672518278b	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31424&indexContent=Mark.15&format=teiraw
+31424	1424	Mark.16	9983	2559aaca8be1dc0927d4ec47eb4ae2ba8c71047479959305871d3030d0b3e6f6	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31424&indexContent=Mark.16&format=teiraw
+31582	1582	Mark.15	19723	854091efce6f1e5bd89f94cd84d76c30614d71c6e753157792b7a0f31779ac83	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31582&indexContent=Mark.15&format=teiraw
+31582	1582	Mark.16	10769	a8c64494f4b60e71ac9c10d6eeb5ada9d7c9184c9b299e1141c7839affe1e9c0	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=31582&indexContent=Mark.16&format=teiraw
+32193	2193	Mark.15	27309	4ad9cd51f220ef2839f7bfa3282cdd08fbe546124bc38a2f7948907268587099	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=32193&indexContent=Mark.15&format=teiraw
+32193	2193	Mark.16	13471	ce974728a9ff887719741ed969103cc414dc28dc5bd05db00e5db42006551d24	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=32193&indexContent=Mark.16&format=teiraw
+10066	P66	John.7	27219	a81677439f73836a908244bab88441094e313b3faec153072feb6a9c2a33c1c8	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10066&indexContent=John.7&format=teiraw
+10066	P66	John.8	28497	8491c3e524ddbec41ad6d617df034e702180fd3cdcaa7d4d45597f6a4f4b67f4	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10066&indexContent=John.8&format=teiraw
+10075	P75	John.7	45279	71bb61fd5dd85f7ee75299958f2007bbf10d0c0fe55e7172d453d0e4f6671713	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10075&indexContent=John.7&format=teiraw
+10075	P75	John.8	29170	08a4f213df0bfb86d8a0f799e389550b2e66bd090e2e5d46ea9a31da45e6002f	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=10075&indexContent=John.8&format=teiraw
+20001	01	John.7	27273	cfcde250b32a12caa473240712ac40d5500cddb70a228b1274eb6036e6d9111c	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=John.7&format=teiraw
+20001	01	John.8	28193	0d02f7403198db2479b4760e9376f4229f3ce857aa376e64710c034446543738	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20001&indexContent=John.8&format=teiraw
+20003	03	John.7	26100	6af541b65a1b6b8310301e7e0ee16be18c57dbf66ff2e801c017fa61d69ba19b	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=John.7&format=teiraw
+20003	03	John.8	26495	3f048feeb33839ef2da7b8ac3b08e5bda6e527a7bd9cf58004e6227c1a2c9c71	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20003&indexContent=John.8&format=teiraw
+20005	05	John.7	22180	b99bf46cb5f813f7a60669620ca47ad33accbe3190db243ec04000aaccb4802c	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20005&indexContent=John.7&format=teiraw
+20005	05	John.8	27493	e73c77685f74c20e4bff889be86117aa00104cbae884a330c1ae33236a9aebac	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20005&indexContent=John.8&format=teiraw
+20019	019	John.7	4188	b8167acebb4a16984412cd9e02d8a2ca67a8257604d8bcb6d708087104d40a3e	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20019&indexContent=John.7&format=teiraw
+20019	019	John.8	6826	5563adace7ed64daa30f9fc0d31d4e530a5582eeaa4f622b2e06f4271ba359d4	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20019&indexContent=John.8&format=teiraw
+20036	036	John.7	22092	2bbea58fee7665e21ca5eabc87ecd2c3419d6dd1c44d6888274505dd0ec2e29a	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20036&indexContent=John.7&format=teiraw
+20036	036	John.8	27022	027e61df9794fc01f94802f5a7568f2faa5e89ef1bb214b4bf5eef298e4bda07	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20036&indexContent=John.8&format=teiraw
+20037	037	John.7	5218	fabcf78393bc8634b1155145d13246a3cae0ac7815e4cfff7cb895d1522c90f8	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20037&indexContent=John.7&format=teiraw
+20038	038	John.7	26960	967989f8b9223fc3e25a376815375a5097048191ad52a4499c11fbf38dad9965	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=John.7&format=teiraw
+20038	038	John.8	28299	754e060ac7bd8c07a5c26acaca7b90233f58432d17bd4a38e160716380658e5d	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=20038&indexContent=John.8&format=teiraw
+30033	33	John.7	23827	a3d37a390a6b6cd1bcdc4b168e1f072b21e00e4c14c683e77085bf0c83487931	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=John.7&format=teiraw
+30033	33	John.8	26432	b232152ee391d0d981d6a1cab3952420b566a4921e2cf8db5fa2a785461284f6	https://ntvmr.uni-muenster.de/community/vmr/api/transcript/get/?docID=30033&indexContent=John.8&format=teiraw

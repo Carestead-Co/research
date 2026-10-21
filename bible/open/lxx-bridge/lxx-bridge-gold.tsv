@@ -1,0 +1,111 @@
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# The hand-checked Hebrew-to-Greek pairs of the 2026-10-19 LXX bridge
+# measurement (docs/data/scripture-lxx-bridge-measurement-2026-10-19.md,
+# appendix): 63 common equivalences and 36 mid- and low-frequency ones, each
+# checked against STEPBible's TBESH and TBESG glosses. A Greek lemma listed is
+# an ACCEPTABLE rendering of the Hebrew one; most rows have one.
+# `flock-scripture-import bridge` prints the table's P@1 and hit@3 on these
+# rows, and the opt-in test in scripture_import/bridge.rs holds them at the
+# measurement's 0.98 and 1.00. A sanity check, not a gold set C.
+#
+# Columns (tab-separated): stratum, hebrew, label, greek (space-separated).
+common	H7462	ra'ah shepherd	G4165 G4166 G1006
+common	H5315	nephesh	G5590
+common	H3820	lev heart	G2588 G1271
+common	H7307	ruach	G4151
+common	H1285	berit	G1242
+common	H2617	chesed	G1656
+common	H6664	tsedeq	G1343
+common	H6662	tsaddiq	G1342
+common	H7965	shalom	G1515
+common	H3068	YHWH	G2962
+common	H0430	elohim	G2316
+common	H4428	melek	G0935
+common	H4438	malkut	G0932
+common	H1121	ben	G5207
+common	H0001	av	G3962
+common	H0776	erets	G1093
+common	H8064	shamayim	G3772
+common	H4325	mayim	G5204
+common	H0784	esh	G4442
+common	H3899	lechem	G0740
+common	H3196	yayin	G3631
+common	H6629	tson	G4263
+common	H1870	derek	G3598
+common	H1697	davar	G3056 G4487
+common	H8085	shama	G0191
+common	H3045	yada	G1097 G1492
+common	H2421	chayah	G2198
+common	H4191	mut	G0599
+common	H2403	chatta't	G0266
+common	H3467	yasha	G4982
+common	H6918	qadosh	G0040
+common	H3519	kavod	G1391
+common	H8034	shem	G3686
+common	H5971	am	G2992
+common	H1471	goy	G1484
+common	H5650	eved	G1401 G3816
+common	H4397	mal'akh	G0032
+common	H5030	navi	G4396
+common	H3548	kohen	G2409
+common	H1004	bayit	G3624 G3614
+common	H3027	yad	G5495
+common	H5869	ayin	G3788
+common	H6310	peh	G4750
+common	H3117	yom	G2250
+common	H4196	mizbeach	G2379
+common	H2077	zevach	G2378
+common	H8451	torah	G3551
+common	H4941	mishpat	G2920 G2917
+common	H0571	emet	G0225
+common	H1320	basar	G4561
+common	H1818	dam	G0129
+common	H7451	ra evil	G4190 G2556
+common	H0157	ahav	G0025
+common	H3372	yare	G5399
+common	H1288	barak	G2127
+common	H2142	zakar	G3415 G3403
+common	H6213	asah	G4160
+common	H5414	natan	G1325
+common	H6440	panim	G4383
+common	H2022	har	G3735
+common	H4057	midbar	G2048
+common	H0068	even	G3037
+common	H2233	zera	G4690
+rare	H6754	tselem image	G1504
+rare	H1823	demut likeness	G3667
+rare	H4899	mashiach anointed	G5547
+rare	H4886	mashach anoint	G5548
+rare	H5162	nacham comfort	G3870
+rare	H1319	basar announce	G2097
+rare	H6299	padah redeem	G3084
+rare	H2398	chata' sin	G0264
+rare	H1330	betulah virgin	G3933
+rare	H2483	choli sickness	G3554 G0769 G3119
+rare	H7716	seh sheep	G4263
+rare	H3532	kebes lamb	G0286
+rare	H8384	te'enah fig	G4808
+rare	H1612	gephen vine	G0288
+rare	H3754	kerem vineyard	G0290
+rare	H7105	qatsir harvest	G2326
+rare	H4672	matsa find	G2147
+rare	H1245	baqash seek	G2212
+rare	H2931	tame' unclean	G0169
+rare	H2889	tahor clean	G2513
+rare	H6883	tsara'at leprosy	G3014
+rare	H7676	shabbat	G4521
+rare	H6453	pesach	G3957
+rare	H4682	matstsah	G0106
+rare	H5104	nahar river	G4215
+rare	H3220	yam sea	G2281
+rare	H8121	shemesh sun	G2246
+rare	H3394	yareach moon	G4582
+rare	H3556	kokab star	G0792
+rare	H5404	nesher eagle	G0105
+rare	H3123	yonah dove	G4058
+rare	H8269	sar prince	G0758
+rare	H8199	shaphat judge	G2919
+rare	H6942	qadash sanctify	G0037
+rare	H7812	shachah bow	G4352
+rare	H5647	avad serve	G1398 G3000

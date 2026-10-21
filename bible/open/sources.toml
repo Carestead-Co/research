@@ -1,0 +1,199 @@
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Pinned scripture datasets for `flock-scripture-import` (spec:
+# docs/architecture/herald-scripture-connections.md, section 4; runbook:
+# runbooks/scripture-import.md).
+#
+# The datasets themselves are NEVER committed. The importer downloads each one,
+# checks its sha256 against this file, and refuses to parse anything that does
+# not match. Changing a pin is a reviewed PR: re-measure with
+# `shasum -a 256`, update `sha256` and `bytes`, and say why in the PR.
+#
+# `url` is an immutable address, and `Manifest::parse` refuses any other: a
+# Wayback Machine `id_` snapshot (the archived bytes, unchanged), or a
+# raw.githubusercontent.com path at a full 40-hex commit sha. ebible.org
+# rebuilds its zips in place (both USFM zips were regenerated on 2026-10-18),
+# so a hash pinned to the live address would start refusing on the
+# publisher's next rebuild. `license` is public domain or CC BY 4.0 and
+# nothing else (the owner's rule). `mirrors` are tried in order
+# when `url` fails; a mirror passes only while its bytes still hash to `sha256`,
+# so a rebuilt upstream fails closed instead of loading unreviewed text.
+#
+# Treasury of Scripture Knowledge: NOT pinned. No clean, standalone,
+# public-domain machine-readable TSK source was confirmed (the copies in
+# circulation are re-keyed by third parties under unclear terms, or are merged
+# into OpenBible's own dataset). `herald_scripture_xrefs` rows with
+# source = 'tsk' stay empty until one is.
+
+[[dataset]]
+id          = "bsb"
+format      = "usfm-zip"
+translation = "BSB"
+description = "Berean Standard Bible, USFM (ebible.org engbsb), source files dated 2025-07-26"
+url         = "https://web.archive.org/web/20250729033904id_/http://ebible.org/Scriptures/engbsb_usfm.zip"
+mirrors     = ["https://ebible.org/Scriptures/engbsb_usfm.zip"]
+sha256      = "79fea15649ed3cc455256baadc1fc0b0fea31813dffd74d179bfdde3fd60f827"
+bytes       = 3020529
+license     = "Public domain (dedicated by BSB Publishing, LLC, 2023)"
+attribution = "The Holy Bible, Berean Standard Bible, BSB. Public domain. Text from eBible.org."
+
+[[dataset]]
+id          = "web"
+format      = "usfm-zip"
+translation = "WEB"
+description = "World English Bible, updated 66-book edition, USFM (ebible.org engwebp), source files dated 2026-10-08; the edition migration 0122 seeded"
+url         = "https://web.archive.org/web/20261011232837id_/https://ebible.org/Scriptures/engwebp_usfm.zip"
+mirrors     = ["https://ebible.org/Scriptures/engwebp_usfm.zip"]
+sha256      = "674fb7eeffa9d64b90c4565a3678ffed61a1ddba47dff9b6a618528e2aaa8c67"
+bytes       = 2903608
+license     = "Public domain; \"World English Bible\" is a trademark of eBible.org"
+attribution = "World English Bible (WEB). Public domain. Text from eBible.org."
+
+[[dataset]]
+id          = "openbible-xrefs"
+format      = "openbible-tsv-zip"
+description = "OpenBible.info cross references, vote-weighted, dataset dated 2025-07-14"
+url         = "https://web.archive.org/web/20250718043617id_/https://a.openbible.info/data/cross-references.zip"
+mirrors     = ["https://a.openbible.info/data/cross-references.zip"]
+sha256      = "98a005f439aaef38fb97936204b1d4d855b4e7b85a9461ef91077862eeee4185"
+bytes       = 1973554
+license     = "CC-BY-4.0"
+attribution = "Cross references from OpenBible.info, licensed CC BY 4.0 (https://www.openbible.info/labs/cross-references/)."
+
+# Phase 2 (spec section 5.2, open question 1; the owner's ruling of
+# 2026-10-19). STEPBible-Data is pinned by raw.githubusercontent.com addresses
+# at ONE commit, which are immutable: the commit sha is in the path. The commit
+# is aca7d691 (2026-10-10), held at least 7 days back to match the dependency
+# floor (ADR 0113); its blobs for these files are byte-identical to
+# ed476a8e, the commit the 2026-10-19 measurement read. Moving the pin means
+# moving all nine together (the two lexicons below included); `Manifest::parse`
+# refuses two commits.
+
+[[dataset]]
+id          = "tahot-gen-deu"
+format      = "tahot-txt"
+description = "STEPBible TAHOT, Translators Amalgamated Hebrew OT, Genesis-Deuteronomy, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAHOT%20Gen-Deu%20-%20Translators%20Amalgamated%20Hebrew%20OT%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "e9b8546ee48fe0bfc57c3b70f5f40e98d96580e803526d19026224e31753368b"
+bytes       = 18190455
+license     = "CC-BY-4.0"
+attribution = "Hebrew lemmas from STEP Bible (www.STEPBible.org), TAHOT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tahot-jos-est"
+format      = "tahot-txt"
+description = "STEPBible TAHOT, Translators Amalgamated Hebrew OT, Joshua-Esther, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAHOT%20Jos-Est%20-%20Translators%20Amalgamated%20Hebrew%20OT%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "195fee1dc3653bab33701f170734eb894ed647c10cd08cc61749375fe8b73775"
+bytes       = 24500317
+license     = "CC-BY-4.0"
+attribution = "Hebrew lemmas from STEP Bible (www.STEPBible.org), TAHOT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tahot-job-sng"
+format      = "tahot-txt"
+description = "STEPBible TAHOT, Translators Amalgamated Hebrew OT, Job-Song of Songs, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAHOT%20Job-Sng%20-%20Translators%20Amalgamated%20Hebrew%20OT%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "bb508af3af07822fca84cc43a0eba79eb70eecf672aabc0245b8d8cecf329d96"
+bytes       = 9540623
+license     = "CC-BY-4.0"
+attribution = "Hebrew lemmas from STEP Bible (www.STEPBible.org), TAHOT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tahot-isa-mal"
+format      = "tahot-txt"
+description = "STEPBible TAHOT, Translators Amalgamated Hebrew OT, Isaiah-Malachi, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAHOT%20Isa-Mal%20-%20Translators%20Amalgamated%20Hebrew%20OT%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "f3ded203d2a74d6368932c97ae550d1d0754b271af491dc0dedf36fe3ba0bcc5"
+bytes       = 17977518
+license     = "CC-BY-4.0"
+attribution = "Hebrew lemmas from STEP Bible (www.STEPBible.org), TAHOT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tagnt-mat-jhn"
+format      = "tagnt-txt"
+description = "STEPBible TAGNT, Translators Amalgamated Greek NT, Matthew-John, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAGNT%20Mat-Jhn%20-%20Translators%20Amalgamated%20Greek%20NT%20-%20STEPBible.org%20CC-BY.txt"
+sha256      = "ab8eaaeb68e17a1dcfa34e1e9350358f22f03bc2a97244d848750ad81044bc8e"
+bytes       = 14189032
+license     = "CC-BY-4.0"
+attribution = "Greek lemmas from STEP Bible (www.STEPBible.org), TAGNT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tagnt-act-rev"
+format      = "tagnt-txt"
+description = "STEPBible TAGNT, Translators Amalgamated Greek NT, Acts-Revelation, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Translators%20Amalgamated%20OT%2BNT/TAGNT%20Act-Rev%20-%20Translators%20Amalgamated%20Greek%20NT%20-%20STEPBible.org%20CC-BY.txt"
+sha256      = "524e32375361e6d3fa2f7ef00b87605fdc4317a762f395651a05fdc31ad031b7"
+bytes       = 15939932
+license     = "CC-BY-4.0"
+attribution = "Greek lemmas from STEP Bible (www.STEPBible.org), TAGNT, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+[[dataset]]
+id          = "tvtms"
+format      = "tvtms-txt"
+description = "STEPBible TVTMS, Translators Versification Traditions with Methodology for Standardisation, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Versification/TVTMS%20-%20Translators%20Versification%20Traditions%20with%20Methodology%20for%20Standardisation%20for%20Eng%2BHeb%2BLat%2BGrk%2BOthers%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "63058e0f20201af4bdaa7d830da5be8f493455d947c5f147d84840b33db9ddf8"
+bytes       = 5790928
+license     = "CC-BY-4.0"
+attribution = "Versification mapping from STEP Bible (www.STEPBible.org), TVTMS, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+# Phase 2 slice 4: the two STEPBible lexicons, read ONLY for the B1 audit of
+# the bridge (Abbott-Smith's `[in LXX ... for <Hebrew>]` notes in TBESG,
+# entries below G6100, mapped to H numbers through TBESH's lemmas). Neither is
+# loaded and neither feeds the bridge. Same commit as the files above; the
+# blobs are byte-identical to ed476a8e, which the 2026-10-19 measurement read.
+[[dataset]]
+id          = "tbesg"
+format      = "tbesg-txt"
+description = "STEPBible TBESG, Translators Brief lexicon of Extended Strongs for Greek (Abbott-Smith's LXX notes below G6100), STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Lexicons/TBESG%20-%20Translators%20Brief%20lexicon%20of%20Extended%20Strongs%20for%20Greek%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "312f723d7b8ef263bbdfb0451c9b8057125804dfff390b6f8544cff2a84b57f4"
+bytes       = 4736912
+license     = "CC-BY-4.0"
+attribution = "Greek lexicon from STEP Bible (www.STEPBible.org), TBESG, created by Tyndale House Cambridge, licensed CC BY 4.0; its LXX notes are from Abbott-Smith's Manual Greek Lexicon of the New Testament (1922, public domain)."
+
+[[dataset]]
+id          = "tbesh"
+format      = "tbesh-txt"
+description = "STEPBible TBESH, Translators Brief lexicon of Extended Strongs for Hebrew, STEPBible-Data commit aca7d691 (2026-10-10)"
+url         = "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/aca7d691414e00b0d669157d98bfd68195e64e1e/Lexicons/TBESH%20-%20Translators%20Brief%20lexicon%20of%20Extended%20Strongs%20for%20Hebrew%20-%20STEPBible.org%20CC%20BY.txt"
+sha256      = "464dccadd95fd8620dd05fa0d7a4caba58ec3c4d5db3ebf38e43d046ca25b591"
+bytes       = 3288045
+license     = "CC-BY-4.0"
+attribution = "Hebrew lexicon from STEP Bible (www.STEPBible.org), TBESH, created by Tyndale House Cambridge, licensed CC BY 4.0."
+
+# Brenton's Septuagint. Archived on 2026-10-19 (a Save Page Now of the live
+# file, built 2026-10-18 from source files dated 2026-04-08): the bytes the
+# 2026-10-19 measurement hashed. It is NOT a text dataset (`text` never loads
+# it): it carries the Apocrypha and LXX book order, and its Greek is read only
+# as lemma sequences for the bridge (phase 2 slices 3 and 4).
+[[dataset]]
+id          = "brenton"
+format      = "lxx-usfm-zip"
+description = "Brenton's Greek Septuagint with Apocrypha, USFM (ebible.org grcbrent), built 2026-10-18 from source files dated 2026-04-08"
+url         = "https://web.archive.org/web/20261019210854id_/https://ebible.org/Scriptures/grcbrent_usfm.zip"
+mirrors     = ["https://ebible.org/Scriptures/grcbrent_usfm.zip"]
+sha256      = "bc414101e94ff40b4a954d049ff9c311b9d4b3048e8541563cad8b30e53e420d"
+bytes       = 1725661
+license     = "Public domain (ebible.org/grcbrent/copr.htm)"
+attribution = "The Greek Septuagint, compiled by Sir Lancelot C. L. Brenton. Public domain. Text from eBible.org."
+
+# EVAL-ONLY (`eval_only = true`): read by `eval` for set C's topical arm and
+# never loaded into a product table (spec section 7, "Eval-only arms in the
+# first round"; the owner's ruling of 2026-10-19). OpenBible regenerates this
+# file weekly, so the pin is the snapshot the 2026-10-19 pre-screen measured,
+# captured into the Wayback Machine the same day; archive it with the gold set.
+# No mirror: a regenerated live file would only ever refuse.
+
+[[dataset]]
+id          = "openbible-topics"
+format      = "openbible-topics-zip"
+description = "OpenBible.info topic scores (readers' topic-to-passage filings), generated 2026-10-19; eval-only"
+url         = "https://web.archive.org/web/20261019222311id_/https://a.openbible.info/data/topic-scores.zip"
+sha256      = "47bc1cb1defe5b8f0f65ca9966cd99ff151b7f22cab18ef9c99eda6a244df7cc"
+bytes       = 418767
+license     = "CC-BY-4.0"
+attribution = "Topics from OpenBible.info, licensed CC BY 4.0 (https://www.openbible.info/topics/)."
+eval_only   = true

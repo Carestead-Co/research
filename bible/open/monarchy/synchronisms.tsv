@@ -1,0 +1,45 @@
+# Cross-kingdom statements for research track 3a. kind:
+# * accession: king became king in year in_year of of_king (king_year empty).
+# * other: year king_year of king fell in year in_year of of_king; with
+#   king_year empty, only that king reigned in that year.
+# * coincidence: both kings' reigns ended in the same year.
+# Transcribed from the BSB (public domain) and checked against the cited verse.
+king	kingdom	king_year	in_year	of_king	of_kingdom	ref	kind	note
+abijam	judah		18	jeroboam1	israel	1Kgs.15.1	accession	
+abijam	judah		18	jeroboam1	israel	2Chr.13.1	accession	Chronicles parallel (Abijah)
+asa	judah		20	jeroboam1	israel	1Kgs.15.9	accession	
+nadab	israel		2	asa	judah	1Kgs.15.25	accession	
+baasha	israel		3	asa	judah	1Kgs.15.28	accession	Baasha killed Nadab and reigned in his place
+baasha	israel		3	asa	judah	1Kgs.15.33	accession	
+elah	israel		26	asa	judah	1Kgs.16.8	accession	
+zimri	israel		27	asa	judah	1Kgs.16.10	accession	Zimri killed Elah and reigned in his place
+zimri	israel		27	asa	judah	1Kgs.16.15	accession	reigned seven days
+omri	israel		31	asa	judah	1Kgs.16.23	accession	after the Tibni division (1Kgs.16.21-22)
+ahab	israel		38	asa	judah	1Kgs.16.29	accession	
+jehoshaphat	judah		4	ahab	israel	1Kgs.22.41	accession	
+ahaziah_i	israel		17	jehoshaphat	judah	1Kgs.22.51	accession	
+joram_i	israel		2	jehoram_j	judah	2Kgs.1.17	accession	conflicts with 2Kgs.3.1; see the data notes
+joram_i	israel		18	jehoshaphat	judah	2Kgs.3.1	accession	conflicts with 2Kgs.1.17; see the data notes
+jehoram_j	judah		5	joram_i	israel	2Kgs.8.16	accession	BSB has no clause 'while Jehoshaphat was king of Judah' (MT reportedly does, not checked here); see the data notes
+ahaziah_j	judah		12	joram_i	israel	2Kgs.8.25	accession	2Kgs.9.29 says eleventh year
+ahaziah_j	judah		11	joram_i	israel	2Kgs.9.29	accession	2Kgs.8.25 says twelfth year
+joash_j	judah		7	jehu	israel	2Kgs.12.1	accession	
+jehoahaz_i	israel		23	joash_j	judah	2Kgs.13.1	accession	
+jehoash_i	israel		37	joash_j	judah	2Kgs.13.10	accession	
+amaziah	judah		2	jehoash_i	israel	2Kgs.14.1	accession	
+jeroboam2	israel		15	amaziah	judah	2Kgs.14.23	accession	
+azariah	judah		27	jeroboam2	israel	2Kgs.15.1	accession	
+zechariah	israel		38	azariah	judah	2Kgs.15.8	accession	
+shallum	israel		39	azariah	judah	2Kgs.15.13	accession	text says Uzziah; no 'of Israel' after 'became king'
+menahem	israel		39	azariah	judah	2Kgs.15.17	accession	
+pekahiah	israel		50	azariah	judah	2Kgs.15.23	accession	
+pekah	israel		52	azariah	judah	2Kgs.15.27	accession	
+hoshea	israel		20	jotham	judah	2Kgs.15.30	accession	Hoshea killed Pekah and reigned in his place; Jotham reigned 16 years (2Kgs.15.33); see the data notes
+jotham	judah		2	pekah	israel	2Kgs.15.32	accession	
+ahaz	judah		17	pekah	israel	2Kgs.16.1	accession	
+hoshea	israel		12	ahaz	judah	2Kgs.17.1	accession	conflicts with 2Kgs.15.30; see the data notes
+hezekiah	judah		3	hoshea	israel	2Kgs.18.1	accession	
+hoshea	israel	7	4	hezekiah	judah	2Kgs.18.9	other	Shalmaneser king of Assyria besieged Samaria
+hoshea	israel	9	6	hezekiah	judah	2Kgs.18.10	other	Samaria taken
+baasha	israel		36	asa	judah	2Chr.16.1	other	no Baasha regnal year given; Baasha went up against Judah and fortified Ramah; Baasha died before Asa 26 per 1Kgs.16.8, see the data notes
+ahaziah_j	judah			joram_i	israel	2Kgs.9.24-2Kgs.9.27	coincidence	same year
