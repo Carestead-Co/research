@@ -6,7 +6,7 @@ Credit: [ATTRIBUTION.md](ATTRIBUTION.md).
 
 | Dataset | What it is | Built from |
 |---|---|---|
-| [`lxx-bridge/`](lxx-bridge/) | Hand-checked Hebrew-to-Greek lemma pairs, and an audit of the Hebrew-to-Greek bridge against Abbott-Smith's Septuagint notes | Brenton's Septuagint (PD), STEPBible TAHOT, TBESH and TBESG (CC BY 4.0) |
+| [`lxx-bridge/`](lxx-bridge/) | How the Septuagint renders each Hebrew lemma (17,775 Strong's-number pairs with weights), hand-checked pairs, and an audit against Abbott-Smith's Septuagint notes | Brenton's Septuagint (PD), STEPBible TAHOT, TAGNT, TVTMS, TBESH and TBESG (CC BY 4.0) |
 | [`pericopes/`](pericopes/) | 487 Gospel passage units | BSB section headings (PD) |
 | [`set-b-formulas/`](set-b-formulas/) | The closed list of citation formulas ("it is written", ...) that select Gospel quotations of the Old Testament | Ours, over the BSB (PD) |
 | [`genealogies/`](genealogies/) | Every name in the Bible's genealogies of Jesus' line, and the identities that join them | BSB (PD) |
@@ -18,8 +18,3 @@ Credit: [ATTRIBUTION.md](ATTRIBUTION.md).
 Header comments in the files sometimes name paths in Carestead's internal
 repository (`docs/...`, `crates/...`, `flock-scripture-import`). They record
 where a file came from; those paths are not published.
-
-## Not here yet
-
-The full Hebrew-to-Greek bridge table is built in memory by Carestead's
-importer and has no export yet. It will be added when it does.
